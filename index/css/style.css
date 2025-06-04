@@ -1,0 +1,27 @@
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+line-height: 20px;
+background: #ddd url("../images/1.gif.jpg") repeat;
+-webkit-font-smoothing: antialiased;
+margin:0;
+padding:0;
+}
+.nav tr{background: #AC6060; text-align:center;}
+.nav tr td a { 
+color: #fff;
+padding-top: 15px;
+padding-bottom: 15px;
+font-weight: bold; 
+text-transform: uppercase;
+text-shadow: 1px 1px 1px #222;
+text-decoration: none;
+}
+.nav tr td:hover,.nav tr td.active{ background:#BBBCC0;color: #BB9485;}
+
+.branding {
+position: relative;
+z-index: 9999;
+background-color: #666;
+background-image: url("../images/menu_wrap.png");
+}
